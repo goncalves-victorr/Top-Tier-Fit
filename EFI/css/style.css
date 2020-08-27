@@ -1,0 +1,42 @@
+body{
+    background: cadetblue;
+}
+.login{
+    width: 320px;
+    height: 420px;
+}
+.Top{
+    text-align:  center;
+    border-style: solid;
+}
+.Center{
+    text-align:  center;
+    border-style: solid;
+}
+.Button{
+    text-align: center;
+    float: right;
+    width: 60px;
+    height: 24px;
+    padding: 9px;
+    background: #2fd0b9;
+    border-radius: 22px;
+    border-style: solid;
+}
+.Space{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.Button-Flex {
+    text-align: center;
+    float: right;
+    width: 145px;
+    height: 24px;
+    padding: 28px;
+    background: #2FD0B9;
+    border-radius: 22px;
+    border-style: solid;
+    margin-top: 24px;
+    margin-left: 77px;
+    margin-right: 33px;
+}

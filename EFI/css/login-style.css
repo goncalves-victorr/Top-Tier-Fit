@@ -1,0 +1,65 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(background\ azul.jpg);
+    background-size: cover;
+
+}
+.login img{
+    padding-left: 100px;
+}
+.login{
+    width: 320px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+} 
+
+.usuario{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 112px;
+}
+h1{
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgba(32, 99, 140);   
+    border-radius: 20px;
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:black;
+    padding-left: 90px;
+}
+.login input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
